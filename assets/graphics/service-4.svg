@@ -1,0 +1,21 @@
+<svg width="600" height="450" viewBox="0 0 600 450" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad4" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#C9A24B"/>
+      <stop offset="100%" stop-color="#E8C468"/>
+    </linearGradient>
+    <radialGradient id="glow4" cx="25%" cy="25%" r="70%">
+      <stop offset="0%" stop-color="#4E3480" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#4E3480" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="450" fill="#241539"/>
+  <rect width="600" height="450" fill="url(#glow4)"/>
+  
+        <rect x="120" y="140" width="280" height="14" rx="7" fill="url(#grad4)" opacity="0.9"/>
+        <rect x="120" y="176" width="360" height="14" rx="7" fill="url(#grad4)" opacity="0.65"/>
+        <rect x="120" y="212" width="220" height="14" rx="7" fill="url(#grad4)" opacity="0.45"/>
+        <rect x="120" y="270" width="320" height="14" rx="7" fill="url(#grad4)" opacity="0.9"/>
+        <rect x="120" y="306" width="180" height="14" rx="7" fill="url(#grad4)" opacity="0.5"/>
+        
+</svg>

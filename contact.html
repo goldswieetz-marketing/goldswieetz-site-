@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Goldswieetz Marketing</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">
+      <img src="assets/logo.png" alt="Goldswieetz Marketing">
+      <span>Goldswieetz</span>
+    </a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+    </div>
+    <a href="contact.html" class="nav-cta">Book a diagnosis</a>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="wrap">
+    <p class="eyebrow">Contact</p>
+    <h1 style="font-size:40px; max-width:600px;">Tell us where it hurts. We'll tell you why.</h1>
+    <p class="lede">A few details, and we'll come to the call already knowing where to look.</p>
+  </div>
+</header>
+
+<section style="padding-top:64px;">
+  <div class="wrap">
+    <div class="grid-2" style="align-items:start;">
+
+      <form id="contact-form" action="https://formspree.io/f/xljeakwg" method="POST" style="display:flex; flex-direction:column; gap:20px;">
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
+          <div>
+            <label style="font-size:13px; font-weight:600; color:var(--purple-deep); display:block; margin-bottom:7px;">Full name</label>
+            <input type="text" name="name" required placeholder="Jane Doe" style="width:100%; padding:13px 14px; border:1.5px solid var(--line); border-radius:8px; font-family:'Inter',sans-serif; font-size:14.5px; background:var(--paper);">
+          </div>
+          <div>
+            <label style="font-size:13px; font-weight:600; color:var(--purple-deep); display:block; margin-bottom:7px;">Business name</label>
+            <input type="text" name="business_name" required placeholder="Acme Co." style="width:100%; padding:13px 14px; border:1.5px solid var(--line); border-radius:8px; font-family:'Inter',sans-serif; font-size:14.5px; background:var(--paper);">
+          </div>
+        </div>
+
+        <div>
+          <label style="font-size:13px; font-weight:600; color:var(--purple-deep); display:block; margin-bottom:7px;">Email</label>
+          <input type="email" name="email" required placeholder="jane@acme.com" style="width:100%; padding:13px 14px; border:1.5px solid var(--line); border-radius:8px; font-family:'Inter',sans-serif; font-size:14.5px; background:var(--paper);">
+        </div>
+
+        <div>
+          <label style="font-size:13px; font-weight:600; color:var(--purple-deep); display:block; margin-bottom:7px;">Industry</label>
+          <select name="industry" style="width:100%; padding:13px 14px; border:1.5px solid var(--line); border-radius:8px; font-family:'Inter',sans-serif; font-size:14.5px; background:var(--paper);">
+            <option>Hospitality</option>
+            <option>Healthcare</option>
+            <option>Professional Services</option>
+            <option>Early-Stage Startup</option>
+            <option>Other</option>
+          </select>
+        </div>
+
+        <div>
+          <label style="font-size:13px; font-weight:600; color:var(--purple-deep); display:block; margin-bottom:7px;">What's the biggest gap right now?</label>
+          <textarea name="biggest_gap" rows="4" placeholder="e.g. we get traffic but nothing converts, or our socials are dead..." style="width:100%; padding:13px 14px; border:1.5px solid var(--line); border-radius:8px; font-family:'Inter',sans-serif; font-size:14.5px; background:var(--paper); resize:vertical;"></textarea>
+        </div>
+
+        <input type="hidden" name="_subject" value="New diagnosis request — Goldswieetz Marketing site">
+
+        <button type="submit" class="btn btn-primary" style="align-self:flex-start; margin-top:4px;">Send &amp; book a call</button>
+        <p id="form-note" style="font-size:13px; color:var(--ink-soft); display:none;">Thanks — we'll be in touch within 1 business day.</p>
+        <p id="form-error" style="font-size:13px; color:#B3372C; display:none;">Something went wrong — please email hello@goldswieetzmarketing.com directly.</p>
+      </form>
+
+      <div style="background:var(--purple-deep); border-radius:18px; padding:36px; color:var(--paper);">
+        <h3 style="color:var(--paper); font-size:20px; margin-bottom:20px;">Other ways to reach us</h3>
+
+        <div style="display:flex; flex-direction:column; gap:22px;">
+          <div>
+            <div style="font-size:12.5px; color:var(--gold-light); font-weight:600; margin-bottom:4px;">Email</div>
+            <div style="font-size:15px;">hello@goldswieetzmarketing.com</div>
+          </div>
+          <div>
+            <div style="font-size:12.5px; color:var(--gold-light); font-weight:600; margin-bottom:4px;">Location</div>
+            <div style="font-size:15px;">Benin City, Edo State, Nigeria</div>
+          </div>
+          <div>
+            <div style="font-size:12.5px; color:var(--gold-light); font-weight:600; margin-bottom:4px;">Response time</div>
+            <div style="font-size:15px;">Within 1 business day</div>
+          </div>
+        </div>
+
+        <div style="margin-top:32px; padding-top:24px; border-top:1px solid var(--line-dark);">
+          <div style="font-size:12.5px; color:var(--gold-light); font-weight:600; margin-bottom:10px;">Before you write</div>
+          <p style="font-size:13.5px; color:rgba(247,244,239,0.75); line-height:1.6;">Have a website URL or social handles ready to share. It means we can look before we talk — so the call is useful from minute one.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">
+          <img src="assets/logo.png" alt="Goldswieetz Marketing">
+          <span>Goldswieetz Marketing</span>
+        </div>
+        <p style="max-width:280px;">B2B brand strategy and AI-powered marketing for hospitality, healthcare, professional services, and early-stage startups.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4>Get In Touch</h4>
+        <a href="contact.html">Book a diagnosis</a>
+        <p>Benin City, Edo State, Nigeria</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Goldswieetz Marketing. All rights reserved.</span>
+      <span>Diagnosis-first, always.</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+const form = document.getElementById('contact-form');
+const noteEl = document.getElementById('form-note');
+const errorEl = document.getElementById('form-error');
+
+form.addEventListener('submit', async function (e) {
+  e.preventDefault();
+  const submitBtn = form.querySelector('button[type="submit"]');
+  const originalText = submitBtn.textContent;
+  submitBtn.textContent = 'Sending…';
+  submitBtn.disabled = true;
+  errorEl.style.display = 'none';
+
+  try {
+    const response = await fetch(form.action, {
+      method: 'POST',
+      body: new FormData(form),
+      headers: { 'Accept': 'application/json' }
+    });
+
+    if (response.ok) {
+      noteEl.style.display = 'block';
+      submitBtn.textContent = 'Sent ✓';
+      form.reset();
+    } else {
+      throw new Error('Form submission failed');
+    }
+  } catch (err) {
+    errorEl.style.display = 'block';
+    submitBtn.textContent = originalText;
+    submitBtn.disabled = false;
+  }
+});
+</script>
+
+</body>
+</html>
